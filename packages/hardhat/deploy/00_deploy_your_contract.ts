@@ -2,7 +2,7 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
 import { Contract } from "ethers";
 
-const CONTRACT_NAME = "UsersContract";
+const CONTRACT_NAME = "VaultManager"; // or "UsersContract";
 
 /**
  * Deploys a contract named as CONTRACT_NAME using the deployer account and
